@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('/styles/contact.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 90px 0px 0;
+}
+
+.header {
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0rem;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.nav-menu-link {
+    padding: 20px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+    color: black;
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 3.0rem;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none;
+}
+
+
+/* Main */
+
+.card_container {
+    height: auto;
+    padding: 10px;
+}
+
+.card_body {
+    margin-top: 10px ;
+    padding: 10px 10px;
+    background-color: #000000;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 8px;
+}
+
+.card_body__title {
+    font-size: 2.0rem;
+    color: #fff;
+}
+
+.card_body__container {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+/* footer */
+footer {
+    height: auto;
+    padding: 10px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook_link {
+    font-size: 3.0rem;
+    margin: 0px  15px;
+    color: #3b5998;
+}
+
+.twitter_link {
+    font-size: 3.0rem;
+    margin: 0px 15px;
+    color: #00acee;
+}
+
+.github_link {
+    font-size: 3.0rem;
+    margin: 0px 15px;
+    color:  #c9d1d9;
+}
+
+.intagram_link {
+    font-size: 3.0rem;
+    padding: 0px;
+    margin: 0px 15px;   
+    color: #C13584;
+    border-radius: 7px;
+}
+
+.autor_info {
+    padding: 5px    ;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 3.5rem;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #131313;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav-menu-item {
+        font-size: 3.5rem;
+        padding: 20px;
+        line-height: 70px;
+    }
+
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: #919191;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
+    
+}
