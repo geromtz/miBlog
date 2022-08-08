@@ -1,16 +1,79 @@
 .socialmedia_container {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .item {
-    max-width: 600px;
+    width: 70%;
+    max-width: 500px;
     margin: 10px 50px;
     padding: 10px 15px;
     background: none;
     border: 3px solid black;
+    border-radius: 5px;
     font-size: 2.0rem;
+}
+
+
+.link__facebook {
+    background: #3b5998;
+    color: white;
+    border: 1px solid white;
+}
+
+.link__facebook:hover {
+    background: white;
+    color: #3b5998;
+    border: 1px solid #3b5998;
+}
+
+.link__twitter {
+    background: #00acee;
+    color: white;
+    border: 1px solid white;
+}
+
+.link__twitter:hover {
+    background: white;
+    color: #00acee;
+    border: 1px solid #00acee;
+}
+
+.link__github {
+    background:  #171515;
+    color: white;
+    border: 1px solid white;
+}
+
+.link__github:hover {
+    background:  white;
+    color: #171515;
+    border: 1px solid #171515;
+}
+
+.link__tiktok {
+    background: #ff0050;
+    color: black;
+    border: 1px solid white;
+}
+
+.link__tiktok:hover {
+    background: black;
+    color: #ff0050;
+    border: 1px solid #ff0050;
+}
+
+.link__intagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    border: 1px solid white;
+}
+
+.link__intagram:hover {
+    background: white;
+    color: #d6249f;
+    border: 1px solid #d6249f;
 }
