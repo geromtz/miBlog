@@ -1,4 +1,12 @@
+.socialmedia_container h3 {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
 .socialmedia_container {
+    padding: 20px 0 0 0;
+    background: black;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -8,13 +16,18 @@
 
 .item {
     width: 70%;
+    height: 60px;
     max-width: 500px;
-    margin: 10px 50px;
+    margin: 15px 50px;
     padding: 10px 15px;
     background: none;
     border: 3px solid black;
     border-radius: 5px;
     font-size: 2.0rem;
+}
+
+.socialmedia_container a {
+    width: 100%;
 }
 
 
