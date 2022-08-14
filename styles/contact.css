@@ -28,6 +28,7 @@
 
 .socialmedia_container a {
     width: 100%;
+    text-align: center;
 }
 
 
@@ -89,4 +90,10 @@
     background: white;
     color: #d6249f;
     border: 1px solid #d6249f;
+}
+
+@media(min-width: 769px) {
+    .socialmedia_container {
+        background: black;
+    }
 }
