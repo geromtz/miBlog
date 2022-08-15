@@ -31,19 +31,21 @@ body {
     margin: 0 auto;
 }
 
+.logo_container {
+    display: flex;
+    margin-left: 25px;
+}
+
 .logo_header {
-    position: absolute;
-    width: 65px;
-    top: 9px;
-    left: 290px;
+    width: 80px;
+    margin-top: 5px;
 }
 
 .name_page {
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 4.0rem;
-    position: absolute;
-    top: 16px;
+    margin-top: 15px;
 }
 
 .nav-link {
